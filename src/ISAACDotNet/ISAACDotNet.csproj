@@ -5,6 +5,19 @@
     <Title>ISAACDotNet</Title>
     <Authors>Buryyy</Authors>
     <Description>ISAAC Cipher for C#</Description>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/Buryyy/ISAACDotNet</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Buryyy/ISAACDotNet</RepositoryUrl>
+    <RepositoryType></RepositoryType>
+    <PackageTags>isaac;streamcipher;dotnet;csharp;cipher</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>

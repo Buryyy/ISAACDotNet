@@ -2,7 +2,6 @@
 
 public class ISAACCipher
 {
-    private const int SizeL = 8;
     private const int Size = 256;
     private const int Mask = 1020;
 
