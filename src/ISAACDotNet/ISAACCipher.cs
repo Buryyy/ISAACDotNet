@@ -11,7 +11,7 @@ public class ISAACCipher
     public int Count { get; private set; }
 
     private readonly int[] mem;
-    public int[] rsl;
+    private int[] rsl;
 
     public ISAACCipher()
     {
