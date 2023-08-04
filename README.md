@@ -1,5 +1,5 @@
 # ISAACDotNet
-C# Implementation of the ISAAC stream cipher.
+C# Implementation of the ISAAC stream cipher. You can use this library from [NuGet](https://www.nuget.org/packages/ISAACDotNet/).
 
 # What is ISAAC?
 ISAAC is a cryptographically secure pseudo-random number generator (CSPRNG) and stream cipher. It was developed by Bob Jenkins from 1993 (http://burtleburtle.net/bob/rand/isaac.html) and placed in the Public Domain. ISAAC is fast - especially when optimised - and portable to most architectures in nearly all programming and scripting languages. It is also simple and succinct, using as it does just two 256-word arrays for its state.
